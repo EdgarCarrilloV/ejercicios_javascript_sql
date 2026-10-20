@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Evaluación Técnica - Desarrollo Web</h1>
+    <h2>Parte 1 JavaScript</h2>
+    <input type="text" id="nameText" placeholder="Ingrese tu nombre">
+    <span>Ejemplo: Brandom</span> <br>
+    <input type="text" id="ageText" placeholder="Ingrese tu edad">
+    <span>Ejemplo: 22</span> <br>
+    <input type="email" id="emailText" placeholder="Ingrese tu correo electrónico">
+    <span>Ejemplo: brandom@example.com</span> <br>
+    <input type="button" id="submitButton" value="Enviar" onclick="validarUsuario()">
+    <input type="button" id="testButton" value="Probar casos de prueba" onclick="probarValidacion()"><br>
+    
+    <h2>2. Filtrado de Productos</h2>
+    <input type="button" id="showButton" value="Mostrar Datos" onclick="mostrarProductosDisponibles()"><br>
+    
+    <h2>3. Carrito de compras</h2>
+    <input type="button" id="showButton" value="Mostrar Datos" onclick="mostrarProductosCarrito ()"><br>
+    <input type="button" id="totalButton" value="Calcular Total" onclick="calcularTotalCarrito()"><br>
+    <input type="button" id="discountButton" value="Aplicar Descuento" onclick="aplicarDescuento()"><br>
+
+    <h2>4. Manipulacion del DOM</h2>
+    <input type="button" id="listaButton" value="Aumentar" onclick="aumentarLista()"><br>
+    <input type="text" id="listaInput" placeholder="Ingrese un elemento"><br>
+    <input type="button" id="listaButton" value="Disminuir" onclick="disminuirLista()"><br>
+    <ul id="lista"></ul>
+
+    <!-- consumo de api -->
+    <h2>5. Consumo de API</h2>
+    <input type="button" id="apiButton" value="Consumir API" onclick="consumirAPI()"><br>
+    <p id="apiResponse"></p> 
+    <ul id="apiList"></ul>
+</body>
+
+<script src="Ejericio1_CarrilloVaca_EdgarB.js"></script>
+</html>
